@@ -1,0 +1,1 @@
+web: gunicorn house_building_expense_tracker.wsgi:application --log-file -
